@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=League+Spartan:wght@400;500;700&display=swap')
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities{
+    *{
+        font-family: 'League Spartan', sans-serif;
+        
+    }
+    body{
+        min-width: 155mm;
+    }
+    ul{
+        @apply m-0 p-0;
+        @apply mt-2;
+    }
+    .name_sect{
+        @apply ml-7;
+    }
+    
+
+
+    @media (min-width: 1024px){
+    .lg\:w-\[37vw\] {
+    width: 40vw;
+}
+    }
+}
